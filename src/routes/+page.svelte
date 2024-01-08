@@ -1,2 +1,16 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import Tmux from '../lib/tmux.svelte';
+</script>
+
+<div class="terminal">
+	<pre>⚡ ~ </pre>
+</div>
+<Tmux />
+
+<style>
+	.terminal {
+		height: 60vh;
+		color: #c0caf5;
+		background-color: #1a1b26;
+	}
+</style>
