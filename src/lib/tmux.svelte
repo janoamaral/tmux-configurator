@@ -4,6 +4,7 @@
 
 <div class="tmux">
 	<div class="left"></div>
+	<div class="window"></div>
 	<div class="right"></div>
 </div>
 
